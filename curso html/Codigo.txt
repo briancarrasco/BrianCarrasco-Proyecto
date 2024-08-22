@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías de Front End</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+        header, footer{
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        main{ 
+            padding: 10px;
+        }
+        section{
+            margin-bottom: 20px;
+            border: 1px solid grey;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Encabezados -->
+     <header>
+        <h1>Trabajo Practico - Tecnologías de Front End</h1>
+        <h2> Carrasco Brian, Legajo: 49980, 3k9.</h2>
+     </header>
+     <main> 
+        <nav> 
+                
+                    <section>
+                    <h3 style="text-decoration: underline;"> Indice:</h3>
+                    
+                
+            <ul>  
+                <li><a href="#seccion1">Estructura</a></li>
+                <li><a href="#seccion2">Encabezado y Propiedades del texto</a></li>
+                <li><a href="#seccion3">Divisiones y Agrupación de Contenido</a></li>
+                <li><a href="#seccion4">Enlaces y Listas</a></li>
+                <li><a href="#seccion6">Elementos Multimedias</a></li>
+                <li><a href="#seccion7">Tablas</a></li>
+                <li><a href="#seccion8">Formularios</a></li>
+            </ul>
+        </section>
+        </nav>
+    <div id="seccion1"> 
+        <section>
+            <h2>1. Estructura Básica del Documento HTML</h2>
+            <p> La estructura básica de una página web se compone por las etiquetas html, head y body. La primera indica el comienzo de la página; la segunda es la cabecera y contiene información descriptiva del sitio; y la tercera es la que abarca todos los elementos visibles dentro de la página.</p>
+            <h3>Encabezados y Propiedades del Texto.</h3>
+            <h4>Ejemplo numero 4 de encabezado.</h4>
+            <h5>Ejemplo numero 5 de encabezado.</h5>
+            <h6>Ejemplo numero 6 de encabezado.</h6>
+        </section>
+
+    </div>
+    <div id="seccion2"> 
+        <section>
+            <h2>2. Encabezado y Propiedades del texto</h2>
+        <p>
+            <b>Este es un texto en letra negrita. </b>
+            </strong><br> <mark>Este es un texto resaltado</mark>. 
+            <p style="text-decoration: underline;">Texto subrayado con Style.</p>
+            <em>Este texto es en cursiva</em>
+
+        </p>
+        </section>
+        
+    </div>
+
+    <div id="seccion3">
+        <section> 
+        <h2>3. Divisiones y Agrupación de Contenido</h2>
+        <article>
+            
+                <h4><b>Sección 1</b></h4>
+                <p>Contenido de la primera división agrupada en un <code>&lt;div&gt;</code>.</p>
+                <h4><b>Sección 2</b></h4>
+                <p>Contenido de la segunda división agrupada en un <code>&lt;div&gt;</code>.</p>
+            
+            </section>
+        </article>
+    </div>
+    <!-- ENLACES -->
+    <div id="seccion4">
+        <section> 
+            <h2>4. Enlaces y Listas</h2>
+        <h3> 4.1. Enlaces</h3>
+        <nav> 
+            
+            <p> Visita <a href="https://www.google.com" target="_blank"> Ir a google </a> para obtener mas informacion sobre HTML.</p>
+            <p> O busca mas informacion en <a href="https://www.youtube.com" target="_blank"> Ir a Youtube </a>.</p>
+            <p> Por ultimo visita <a href="https://blog.hubspot.es/website/estructura-html#:~:text=La%20estructura%20HTML%20de%20una%20p%C3%A1gina%20web%20se%20compone%20de,elementos%20visibles%20de%20la%20p%C3%A1gina." target="_blank"> Estructura básica de HTML </a> para mas informacion. </p>
+        </nav>
+        <h3>Enlaces Internos:</h3>
+        <ol>
+            <li><a href="#seccion1">Inicio </a></li>
+            <li><a href="#seccion2">Encabezados </a></li>
+            <li><a href="#seccion3">Divisiones y Agrupación </a></li>
+            <li><a href="#seccion4">Enlaces y Listas</a></li>
+        
+        </ol>
+        </section>
+        
+        
+    </div>
+    <!-- LISTAS EN HTML -->
+
+    <div id="seccion5">
+        <section><h3>4.2.1. Lista ordenada </h3>
+            <ol>
+                <li>Soy un elemento 1</li>
+                <li>Soy un elemento 2</li>
+                <li>Soy un elemento 3</li>
+                <li>Soy un elemento 4</li>
+            </ol>
+            
+            <h3>4.2.2. Lista desordenada </h3>
+            <ul>
+                <li>Soy un elemento 1</li>
+                <li>Soy un elemento 2</li>
+                <li>Soy un elemento 3</li>
+                <li>Soy un elemento 4</li>
+            </ul> 
+        </section>
+       
+    </div>
+
+    <!-- ELEMENTOS MILTUMEDIA -->
+
+    <div id="seccion6">
+        <section>
+            <h2>5. Elementos Multimedias</h2>
+            <h3>*Imágenes*</h3>
+            <img src="imagen2.jpg" width="300px" alt="Es una imagen de algo"/>
+            <img src="imagen1.jpg" width="300px" alt="Es una imagen de algo"/>
+            <h3>*Audio*</h3>
+            <p>Niña Bonita - Chino</p>
+            <audio controls>
+                <source src="audio.1.mp3" type="audio/mpeg">
+                
+            </audio>
+            <h3>*Videos*</h3>
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300px" height="300px">
+                
+            </video>
+        </section>
+    </div>
+
+
+     <div id="seccion7"> 
+        <section>
+            <h2>6. Tablas</h2>
+            <style> 
+                table{ 
+                    width: 100%;
+                    border-collapse: collapse;
+            
+                }
+                th,td{
+                    border: 1px solid black;
+                    padding: 8px;
+                    text-align: center;
+            
+                }
+                tfoot{
+                    font-weight: bold;
+                    background-color: gray;
+                    fount
+                    
+                }
+            
+            
+                </style>
+            
+            
+            </head>
+            
+            <body>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                            <th>Columna 3</th>
+                        </tr>
+            
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>Fila 1, celda 1</td>
+                            <td>Fila 2, celda 2</td>
+                            <td>Fila 3, celda 3</td>
+                        </tr>
+                        <tr>
+                            <td>Fila 2, celda 1</td>
+                            <td>Fila 2, celda 2</td>
+                            <td>Fila 2, celda 3</td>
+                        </tr>
+                        <tr>
+                            <td>Fila 3, celda 1</td>
+                            <td>Fila 3, celda 2</td>
+                            <td>Fila 3, celda 3</td>
+                        </tr>
+            
+                    </tbody>
+            
+            
+                    <tfoot>
+                        <tr>
+                            <td>total 1</td>
+                            <td>total 2</td>
+                            <td>total 3</td>
+                        </tr>
+            
+                    </tfoot>
+                </table>
+        </body>
+
+        </section>
+    </div>
+
+
+    <div id="seccion8">
+        <section>
+            <h2>7.Formularios </h2>
+            <h3><b>Descripción:</b></h3>
+            <h4>Diseña un formulario para recolectar datos del usuario. Los formularios son esenciales en la interacción con el usuario y pueden incluir varios tipos de campos.</h4>
+    
+            <body>
+        
+                <form>
+                    <div>
+                        <label>Email</label>
+                    <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Ingrese su nombre"/>
+                    </div>
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" placeholder="Ingrese su apellido"/>
+                    </div>
+                    <div> 
+                        <label>Edad</label>
+                    <input type="number" placeholder="Ingrese su Edad"/>
+                    </div>
+                    <div>
+                        <label>Ingrese informacion extra</label>
+                        <textarea placeholder="Informacion extra"></textarea>
+                    </div>
+                    <button type="submit">Enviar formulario</button>
+                    
+                </form>
+    
+            </body>
+        </section>
+
+</body>
+</html>
